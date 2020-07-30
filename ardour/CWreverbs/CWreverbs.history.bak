@@ -1,0 +1,1323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UndoHistory>
+  <UndoTransaction tv-sec="1596122069" tv-usec="394884" name="créer une région">
+    <StatefulDiffCommand obj-id="201" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="228"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="4096" left-frame="0" y-origin="0">
+        <Selection>
+          <StripableView id="162"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="4096" left-frame="0" y-origin="0">
+        <Selection>
+          <StripableView id="162"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1596122108" tv-usec="84794" name="Créer une note">
+    <NoteDiffCommand midi-source="226">
+      <ChangedNotes/>
+      <AddedNotes>
+        <note id="0" note="69" channel="0" time="0.17031250000000001" length="15.701041666666667" velocity="64"/>
+      </AddedNotes>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="4096" left-frame="0" y-origin="0">
+        <Selection>
+          <StripableView id="162"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="4096" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="228"/>
+          </Regions>
+          <MIDINotes region-id="228">
+            <note note-id="0"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1596122169" tv-usec="758463" name="Capturer">
+    <StatefulDiffCommand obj-id="277" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="312"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1596122179" tv-usec="175190" name="supprimer objets">
+    <StatefulDiffCommand obj-id="277" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="312"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4096" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="312"/>
+          </Regions>
+          <MIDINotes region-id="228">
+            <note note-id="0"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="4096" left-frame="0" y-origin="0">
+        <Selection>
+          <MIDINotes region-id="228">
+            <note note-id="0"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1596122235" tv-usec="942827" name="Capturer">
+    <StatefulDiffCommand obj-id="277" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="355"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1596123188" tv-usec="518945" name="Capturer">
+    <StatefulDiffCommand obj-id="504" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="4169"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="528" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="4195"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="648" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="4221"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="768" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="4247"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1508" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="4273"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1628" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="4299"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1748" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="4325"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1868" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="4351"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1988" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="4377"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2108" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="4404"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2228" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="4433"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2348" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="4464"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2468" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="4493"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2588" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="4519"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2708" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="4545"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2828" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="4571"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2948" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="4597"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="3068" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="4623"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="3188" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="4649"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1596123358" tv-usec="803225" name="supprimer objets">
+    <StatefulDiffCommand obj-id="504" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="4169"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="528" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="4195"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="648" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="4221"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="768" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="4247"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1508" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="4273"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1628" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="4299"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1748" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="4325"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1868" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="4351"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1988" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="4377"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2108" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="4404"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2948" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="4597"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="3068" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="4623"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="3188" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="4649"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2228" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="4433"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2348" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="4464"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2468" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="4493"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2588" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="4519"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2708" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="4545"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2828" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="4571"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4096" left-frame="0" y-origin="768">
+        <Selection>
+          <Regions>
+            <Region id="4169"/>
+            <Region id="4221"/>
+            <Region id="4247"/>
+            <Region id="4195"/>
+            <Region id="4325"/>
+            <Region id="4351"/>
+            <Region id="4433"/>
+            <Region id="4464"/>
+            <Region id="4493"/>
+            <Region id="4273"/>
+            <Region id="4299"/>
+            <Region id="4377"/>
+            <Region id="4404"/>
+            <Region id="4519"/>
+            <Region id="4545"/>
+            <Region id="4571"/>
+            <Region id="4597"/>
+            <Region id="4623"/>
+            <Region id="4649"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="4096" left-frame="0" y-origin="768">
+        <Selection/>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1596123413" tv-usec="235818" name="redimensionner les notes">
+    <NoteDiffCommand midi-source="226">
+      <ChangedNotes>
+        <Change property="Length" old="15.701041666666667" new="9.8770833333333332" id="0"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="512" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="228"/>
+          </Regions>
+          <MIDINotes region-id="228">
+            <note note-id="0"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="512" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="228"/>
+          </Regions>
+          <MIDINotes region-id="228">
+            <note note-id="0"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1596123416" tv-usec="76561" name="redimensionner les notes">
+    <NoteDiffCommand midi-source="226">
+      <ChangedNotes>
+        <Change property="Length" old="9.8770833333333332" new="7.5307291666666671" id="0"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="512" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="228"/>
+          </Regions>
+          <MIDINotes region-id="228">
+            <note note-id="0"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="512" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="228"/>
+          </Regions>
+          <MIDINotes region-id="228">
+            <note note-id="0"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1596123430" tv-usec="828484" name="redimensionner les notes">
+    <NoteDiffCommand midi-source="226">
+      <ChangedNotes>
+        <Change property="Length" old="7.5307291666666671" new="3.8187500000000001" id="0"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="512" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="228"/>
+          </Regions>
+          <MIDINotes region-id="228">
+            <note note-id="0"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="512" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="228"/>
+          </Regions>
+          <MIDINotes region-id="228">
+            <note note-id="0"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1596123442" tv-usec="396275" name="Déplacer la région">
+    <StatefulDiffCommand obj-id="228" type-name="ARDOUR::MidiRegion">
+      <Changes/>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="228"/>
+          </Regions>
+          <MIDINotes region-id="228">
+            <note note-id="0"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="228"/>
+          </Regions>
+          <MIDINotes region-id="228">
+            <note note-id="0"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1596123447" tv-usec="557233" name="déplacer les notes">
+    <NoteDiffCommand midi-source="226">
+      <ChangedNotes>
+        <Change property="StartTime" old="0.17031250000000001" new="0" id="0"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="512" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="228"/>
+          </Regions>
+          <MIDINotes region-id="228">
+            <note note-id="0"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="512" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="228"/>
+          </Regions>
+          <MIDINotes region-id="228">
+            <note note-id="0"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1596123470" tv-usec="438314" name="Capturer">
+    <StatefulDiffCommand obj-id="504" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="7495"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="528" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="7522"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="648" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="7549"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="768" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="7576"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1508" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="7603"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1628" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="7630"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1748" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="7657"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1868" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="7684"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1988" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="7711"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2108" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="7738"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2228" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="7765"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2348" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="7792"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2468" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="7819"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2588" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="7846"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2708" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="7873"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2828" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="7900"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2948" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="7927"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="3068" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="7954"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="3188" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="7981"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1596123538" tv-usec="38095" name="Déplacer la région">
+    <StatefulDiffCommand obj-id="228" type-name="ARDOUR::MidiRegion">
+      <Changes/>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="228"/>
+          </Regions>
+          <MIDINotes region-id="228">
+            <note note-id="0"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="228"/>
+          </Regions>
+          <MIDINotes region-id="228">
+            <note note-id="0"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1596123546" tv-usec="295040" name="déplacer les notes">
+    <NoteDiffCommand midi-source="226">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="69" new="57" id="0"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="512" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="228"/>
+          </Regions>
+          <MIDINotes region-id="228">
+            <note note-id="0"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="512" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="228"/>
+          </Regions>
+          <MIDINotes region-id="228">
+            <note note-id="0"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1596123558" tv-usec="285611" name="supprimer objets">
+    <StatefulDiffCommand obj-id="504" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="7495"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="528" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="7522"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="648" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="7549"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="768" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="7576"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1508" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="7603"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1628" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="7630"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1748" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="7657"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1868" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="7684"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1988" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="7711"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2108" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="7738"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2948" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="7927"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="3068" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="7954"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="3188" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="7981"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2228" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="7765"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2348" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="7792"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2468" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="7819"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2588" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="7846"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2708" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="7873"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2828" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="7900"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="0" y-origin="1062">
+        <Selection>
+          <Regions>
+            <Region id="7495"/>
+            <Region id="7657"/>
+            <Region id="7684"/>
+            <Region id="7549"/>
+            <Region id="7765"/>
+            <Region id="7792"/>
+            <Region id="7819"/>
+            <Region id="7603"/>
+            <Region id="7630"/>
+            <Region id="7576"/>
+            <Region id="7711"/>
+            <Region id="7738"/>
+            <Region id="7846"/>
+            <Region id="7522"/>
+            <Region id="7873"/>
+            <Region id="7900"/>
+            <Region id="7927"/>
+            <Region id="7954"/>
+            <Region id="7981"/>
+          </Regions>
+          <MIDINotes region-id="228">
+            <note note-id="0"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="0" y-origin="1062">
+        <Selection>
+          <MIDINotes region-id="228">
+            <note note-id="0"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1596123567" tv-usec="556641" name="supprimer le repère">
+    <MementoCommand obj-id="50" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="232" name="session" start="0" end="660468" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1596122069"/>
+        <Location id="301" name="décrochage (xrun)" start="26112" end="26112" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596122167"/>
+        <Location id="3440" name="décrochage (xrun)" start="261632" end="261632" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3441" name="décrochage (xrun)" start="262912" end="262912" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3442" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3443" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3444" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3445" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3446" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3447" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3448" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3449" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3450" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3451" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3452" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3453" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3454" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3455" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3456" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3457" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3458" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123152"/>
+        <Location id="3459" name="décrochage (xrun)" start="395264" end="395264" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123152"/>
+        <Location id="4088" name="décrochage (xrun)" start="256" end="256" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123174"/>
+        <Location id="4089" name="décrochage (xrun)" start="256" end="256" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123174"/>
+        <Location id="4090" name="décrochage (xrun)" start="28416" end="28416" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123175"/>
+        <Location id="4091" name="décrochage (xrun)" start="126208" end="126208" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123177"/>
+        <Location id="4102" name="décrochage (xrun)" start="132608" end="132608" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123177"/>
+        <Location id="4112" name="décrochage (xrun)" start="139520" end="139520" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123177"/>
+        <Location id="4113" name="décrochage (xrun)" start="139520" end="139520" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123177"/>
+        <Location id="4114" name="décrochage (xrun)" start="139520" end="139520" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123177"/>
+        <Location id="4115" name="décrochage (xrun)" start="233728" end="233728" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123179"/>
+        <Location id="4116" name="décrochage (xrun)" start="393728" end="393728" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4117" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4118" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4119" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4120" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4121" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4122" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4123" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4124" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4125" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4126" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4127" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4128" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4129" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4130" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4131" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4132" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4133" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4134" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4135" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4136" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4137" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4138" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4139" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4140" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4141" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4142" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4143" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4144" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4145" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4146" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4147" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4148" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4149" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4150" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4151" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4152" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4153" name="décrochage (xrun)" start="523520" end="523520" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123185"/>
+        <Location id="4154" name="décrochage (xrun)" start="525824" end="525824" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123185"/>
+        <Location id="4155" name="décrochage (xrun)" start="525824" end="525824" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123185"/>
+        <Location id="4156" name="décrochage (xrun)" start="525824" end="525824" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123185"/>
+        <Location id="4157" name="décrochage (xrun)" start="655872" end="655872" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123188"/>
+        <Location id="4158" name="décrochage (xrun)" start="657152" end="657152" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123188"/>
+        <Location id="4159" name="décrochage (xrun)" start="657408" end="657408" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123188"/>
+        <Location id="7485" name="décrochage (xrun)" start="262912" end="262912" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123467"/>
+      </Locations>
+      <Locations>
+        <Location id="232" name="session" start="0" end="660468" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1596122069"/>
+        <Location id="301" name="décrochage (xrun)" start="26112" end="26112" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596122167"/>
+        <Location id="3440" name="décrochage (xrun)" start="261632" end="261632" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3441" name="décrochage (xrun)" start="262912" end="262912" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3442" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3443" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3444" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3445" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3446" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3447" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3448" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3449" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3450" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3451" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3452" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3453" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3454" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3455" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3456" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3457" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3458" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123152"/>
+        <Location id="3459" name="décrochage (xrun)" start="395264" end="395264" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123152"/>
+        <Location id="4088" name="décrochage (xrun)" start="256" end="256" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123174"/>
+        <Location id="4089" name="décrochage (xrun)" start="256" end="256" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123174"/>
+        <Location id="4091" name="décrochage (xrun)" start="126208" end="126208" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123177"/>
+        <Location id="4102" name="décrochage (xrun)" start="132608" end="132608" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123177"/>
+        <Location id="4112" name="décrochage (xrun)" start="139520" end="139520" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123177"/>
+        <Location id="4113" name="décrochage (xrun)" start="139520" end="139520" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123177"/>
+        <Location id="4114" name="décrochage (xrun)" start="139520" end="139520" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123177"/>
+        <Location id="4115" name="décrochage (xrun)" start="233728" end="233728" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123179"/>
+        <Location id="4116" name="décrochage (xrun)" start="393728" end="393728" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4117" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4118" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4119" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4120" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4121" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4122" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4123" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4124" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4125" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4126" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4127" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4128" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4129" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4130" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4131" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4132" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4133" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4134" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4135" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4136" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4137" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4138" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4139" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4140" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4141" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4142" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4143" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4144" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4145" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4146" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4147" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4148" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4149" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4150" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4151" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4152" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4153" name="décrochage (xrun)" start="523520" end="523520" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123185"/>
+        <Location id="4154" name="décrochage (xrun)" start="525824" end="525824" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123185"/>
+        <Location id="4155" name="décrochage (xrun)" start="525824" end="525824" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123185"/>
+        <Location id="4156" name="décrochage (xrun)" start="525824" end="525824" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123185"/>
+        <Location id="4157" name="décrochage (xrun)" start="655872" end="655872" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123188"/>
+        <Location id="4158" name="décrochage (xrun)" start="657152" end="657152" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123188"/>
+        <Location id="4159" name="décrochage (xrun)" start="657408" end="657408" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123188"/>
+        <Location id="7485" name="décrochage (xrun)" start="262912" end="262912" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123467"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="0" y-origin="0">
+        <Selection>
+          <MIDINotes region-id="228">
+            <note note-id="0"/>
+          </MIDINotes>
+          <Marker id="4090" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="0" y-origin="0">
+        <Selection>
+          <MIDINotes region-id="228">
+            <note note-id="0"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1596123572" tv-usec="469859" name="effacer les repères">
+    <MementoCommand obj-id="50" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="232" name="session" start="0" end="660468" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1596122069"/>
+        <Location id="301" name="décrochage (xrun)" start="26112" end="26112" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596122167"/>
+        <Location id="3440" name="décrochage (xrun)" start="261632" end="261632" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3441" name="décrochage (xrun)" start="262912" end="262912" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3442" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3443" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3444" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3445" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3446" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3447" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3448" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123149"/>
+        <Location id="3449" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3450" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3451" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3452" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3453" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3454" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3455" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3456" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3457" name="décrochage (xrun)" start="263168" end="263168" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123150"/>
+        <Location id="3458" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123152"/>
+        <Location id="3459" name="décrochage (xrun)" start="395264" end="395264" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123152"/>
+        <Location id="4088" name="décrochage (xrun)" start="256" end="256" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123174"/>
+        <Location id="4089" name="décrochage (xrun)" start="256" end="256" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123174"/>
+        <Location id="4091" name="décrochage (xrun)" start="126208" end="126208" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123177"/>
+        <Location id="4102" name="décrochage (xrun)" start="132608" end="132608" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123177"/>
+        <Location id="4112" name="décrochage (xrun)" start="139520" end="139520" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123177"/>
+        <Location id="4113" name="décrochage (xrun)" start="139520" end="139520" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123177"/>
+        <Location id="4114" name="décrochage (xrun)" start="139520" end="139520" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123177"/>
+        <Location id="4115" name="décrochage (xrun)" start="233728" end="233728" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123179"/>
+        <Location id="4116" name="décrochage (xrun)" start="393728" end="393728" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4117" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4118" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4119" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4120" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4121" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4122" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4123" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4124" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4125" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4126" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4127" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4128" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4129" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4130" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4131" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123182"/>
+        <Location id="4132" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4133" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4134" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4135" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4136" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4137" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4138" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4139" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4140" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4141" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4142" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4143" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4144" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4145" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4146" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4147" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4148" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4149" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4150" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4151" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4152" name="décrochage (xrun)" start="395008" end="395008" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123183"/>
+        <Location id="4153" name="décrochage (xrun)" start="523520" end="523520" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123185"/>
+        <Location id="4154" name="décrochage (xrun)" start="525824" end="525824" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123185"/>
+        <Location id="4155" name="décrochage (xrun)" start="525824" end="525824" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123185"/>
+        <Location id="4156" name="décrochage (xrun)" start="525824" end="525824" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123185"/>
+        <Location id="4157" name="décrochage (xrun)" start="655872" end="655872" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123188"/>
+        <Location id="4158" name="décrochage (xrun)" start="657152" end="657152" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123188"/>
+        <Location id="4159" name="décrochage (xrun)" start="657408" end="657408" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123188"/>
+        <Location id="7485" name="décrochage (xrun)" start="262912" end="262912" flags="IsMark" locked="0" position-lock-style="AudioTime" timestamp="1596123467"/>
+      </Locations>
+      <Locations>
+        <Location id="232" name="session" start="0" end="660468" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1596122069"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="0" y-origin="0">
+        <Selection>
+          <MIDINotes region-id="228">
+            <note note-id="0"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="512" left-frame="0" y-origin="0">
+        <Selection>
+          <MIDINotes region-id="228">
+            <note note-id="0"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1596123610" tv-usec="807803" name="Capturer">
+    <StatefulDiffCommand obj-id="504" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="8335"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="528" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="8362"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="648" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="8389"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="768" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="8416"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1508" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="8443"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1628" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="8470"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1748" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="8497"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1868" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="8524"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1988" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="8551"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2108" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="8578"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2228" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="8605"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2348" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="8632"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2468" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="8659"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2588" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="8686"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2708" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="8713"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2828" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="8740"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="2948" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="8767"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="3068" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="8794"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="3188" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="8821"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+</UndoHistory>
