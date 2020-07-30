@@ -1,0 +1,604 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE CARLA-PROJECT>
+<CARLA-PROJECT VERSION='2.2'>
+ <EngineSettings>
+  <ForceStereo>false</ForceStereo>
+  <PreferPluginBridges>false</PreferPluginBridges>
+  <PreferUiBridges>true</PreferUiBridges>
+  <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
+  <MaxParameters>200</MaxParameters>
+  <UIBridgesTimeout>4000</UIBridgesTimeout>
+ </EngineSettings>
+
+ <Transport>
+  <BeatsPerMinute>120</BeatsPerMinute>
+ </Transport>
+
+ <!-- Dimension Pro -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Dimension Pro (dry)</Name>
+   <Binary>/home/jpc/.wine/drive_c/Program Files/Cakewalk/Vstplugins/Dimension Pro/Dimension Pro x64.dll</Binary>
+   <UniqueID>1684893299</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f9</Options>
+
+   <Chunk>
+eJzt2V9OE1EUB+DjCxtwCT74QOIC+DvgIkgITyANkRBJMSb61CX4CkvADfjGBgpr8lIQO2PstOlAU8/3S046w739esvcwqQnYrAdM+V+/ni1jrdU1aj6+I/r
+681JVeasN+qZ0/b+O88Uv8NaJffmvT5t+3dw0211neb6562Zr8dSVa/Xq1V31yFnbofDjS5r0e9Hmpn5b2rjM1c1arRnNq8uL7cexgePj6PX2vr7+VP/HxGR
+haT1nmLRmfe+QURERBLnzds/x6+eju52x6ZU4/NXV14P7ud9f5o89f1QNXmYw+FwOBwOh8PhcDgcDofD4XA4HA6Hw+G8pKM/yOFwOBwOh8PhcDgcDofD4XA4
+HA6Hw+HkcfQHORwOh8PhcDgcDofD4XA4HA6Hw+FwOJw8jv4gh8PhcDgcDofD4XA4HA6Hw+FwOBwOh5PH0R/kcDgcDofD4XA4HA6Hw+FwOBwOh8PhcPI4+oMc
+DofD4XA4HA6Hw+FwOBwOh8PhcDgcTh5Hf5DD4XA4HA6Hw+FwOBwOh8PhcDgcDofDyePoD3I4HA6Hw+FwOBwOh8PhcDgcDofD4XA4eRz9QQ6Hw+FwOBwOh8Ph
+cDgcDofD4XA4HA4nj6M/yOFwOBwOh8PhcDgcDofD4XA4HA6Hw+HkcfQHORwOh8PhcDgcDofD4XA4HA6Hw+FwOJw8jv4gh8PhcDgcDofD4XA4HA6Hw+FwOBwO
+h5PH0R/kcDgcDofD4XA4HA6Hw+FwOBwOh8PhcPI4+oMcDofD4XA4HA6Hw+FwOBwOh8PhcDgcTh5Hf5DD4XA4HA6Hw+FwOBwOh8PhcDgcDofDyePoD3I4HA6H
+w+FwOBwOh8PhcDgcDofD4XA4eRz9QQ6Hw+FwOBwOh8PhcDgcDofD4XA4HA4nj6M/yOFwOBwOh8PhcDgcDofD4XA4HA6Hw+HkcfQHORwOh8PhcDgcDofD4XA4
+HA6Hw+FwOJw8jv4gh8PhcDgcDofD4XA4HA6Hw+FwOBwOh5Pa2e7OaZv3r/GqvP7PnfnXc7Vbd6wnx3pqsZ+tZ8nXU4v9bD1Lvp5a7GfrWdr17MdaHMRJfIqz
+OC5HH+M8jsrjh3J2EafxuYycl/P3sRf98rMvpfpxWMYOSvXi22huP77Gu8dzERERERERERH5n+P7JBEREfmdX2s9RBg=
+   </Chunk>
+  </Data>
+ </Plugin>
+
+ <!-- Dimension Pro -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Dimension Pro (large hall size=100)</Name>
+   <Binary>/home/jpc/.wine/drive_c/Program Files/Cakewalk/Vstplugins/Dimension Pro/Dimension Pro x64.dll</Binary>
+   <UniqueID>1684893299</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f9</Options>
+
+   <Chunk>
+eJzt2U9OE3EUB/Dnxgt4BBcuTIhu1ULFQ5gYEoNK/QeRgHHhqkdwC0fAC7jzAuiZfCBiZ4xMm442k/f5kpeZ6e/XT39lpjDpi5huxEI5mz9bneMdNW5Vc/zz
+ycnoqso591v1j9P1/nvPHL/DRhX3lj0/Xdfv9Gu/1Xfa61+2Fj4fg6rJZNKo/s5DzXw7PX3QZ636/Ug7C/9NbX3mxq06v2ZGx0dH6z/Hpxfb89da//P5c/8f
+EZGVpPOeYtVZ9r5BRERECufmrd/71y73vm/OTBnPzr99/cb0bN6ny8lz3w+Nrx7mcDgcDofD4XA4HA6Hw+FwOBwOh8PhcDj/09Ef5HA4HA6Hw+FwOBwOh8Ph
+cDgcDofD4XDqOPqDHA6Hw+FwOBwOh8PhcDgcDofD4XA4HE4dR3+Qw+FwOBwOh8PhcDgcDofD4XA4HA6Hw6nj6A9yOBwOh8PhcDgcDofD4XA4HA6Hw+FwOHUc
+/UEOh8PhcDgcDofD4XA4HA6Hw+FwOBwOp46jP8jhcDgcDofD4XA4HA6Hw+FwOBwOh8Ph1HH0BzkcDofD4XA4HA6Hw+FwOBwOh8PhcDicOo7+IIfD4XA4HA6H
+w+FwOBwOh8PhcDgcDodTx9Ef5HA4HA6Hw+FwOBwOh8PhcDgcDofD4XDqOPqDHA6Hw+FwOBwOh8PhcDgcDofD4XA4HE4dR3+Qw+FwOBwOh8PhcDgcDofD4XA4
+HA6Hw6nj6A9yOBwOh8PhcDgcDofD4XA4HA6Hw+FwOHUc/UEOh8PhcDgcDofD4XA4HA6Hw+FwOBwOp46jP8jhcDgcDofD4XA4HA6Hw+FwOBwOh8Ph1HH0Bzkc
+DofD4XA4HA6Hw+FwOBwOh8PhcDicOo7+IIfD4XA4HA6Hw+FwOBwOh8PhcDgcDodTx9Ef5HA4HA6Hw+FwOBwOh8PhcDgcDofD4XDqOPqDHA6Hw+FwOBwOh8Ph
+cDgcDofD4XA4HE4dR3+Qw+FwOBwOh8PhcDgcDofD4XA4HA6HwyntbPTndM372/g4X//Lw+XXc7zZdKynxnoacT1bz8DX04jr2XoGvp5GXM/WM9j1PIl7sRWv
+4l3sxU7uvYn9eJ7bF3l0GG/jfY7s5/GjeBwH+diHrIN4lmNbWZP4mNvd2M7HXubI05S283g39w7jdY7uxCjuxp38WbuYLyIiIiIiIiIiQ47vk0RERORXfgDT
+509g
+   </Chunk>
+  </Data>
+ </Plugin>
+
+ <!-- Dimension Pro -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Dimension Pro (large hall size=50)</Name>
+   <Binary>/home/jpc/.wine/drive_c/Program Files/Cakewalk/Vstplugins/Dimension Pro/Dimension Pro x64.dll</Binary>
+   <UniqueID>1684893299</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f9</Options>
+
+   <Chunk>
+eJzt2U9OFFEQB+By4wU8ggsXJsSNG3VgxEOYGBKDyvgPIgHjwtUcwS0cAS/gzgugZ7JAxOk20jOZ1kmnvl9S6e55j2/e0A/oUBHTjVgoZ/Nnq3O8o8atao5/
+PjkZXVU5536r/nG6Pn/vmeN72Kji3rL3p2v/Tr/2W32nvf5la+H7MaiaTCaN6u8+1My309MHfdaqP4+0s/Dv1NbP3LhV53tmdHx0tP5zfHpxPH+v9T+/fu6/
+IyKyknQ+U6w6yz43iIiISOHcvPX7/Nrl2ffNmSnj2fm3r9+Yns37dDl57ueh8dXDHA6Hw+FwOBwOh8PhcDgcDofD4XA4HA7nfzr6gxwOh8PhcDgcDofD4XA4
+HA6Hw+FwOBxOHUd/kMPhcDgcDofD4XA4HA6Hw+FwOBwOh8Op4+gPcjgcDofD4XA4HA6Hw+FwOBwOh8PhcDh1HP1BDofD4XA4HA6Hw+FwOBwOh8PhcDgcDqeO
+oz/I4XA4HA6Hw+FwOBwOh8PhcDgcDofD4dRx9Ac5HA6Hw+FwOBwOh8PhcDgcDofD4XA4nDqO/iCHw+FwOBwOh8PhcDgcDofD4XA4HA6HU8fRH+RwOBwOh8Ph
+cDgcDofD4XA4HA6Hw+Fw6jj6gxwOh8PhcDgcDofD4XA4HA6Hw+FwOBxOHUd/kMPhcDgcDofD4XA4HA6Hw+FwOBwOh8Op4+gPcjgcDofD4XA4HA6Hw+FwOBwO
+h8PhcDh1HP1BDofD4XA4HA6Hw+FwOBwOh8PhcDgcDqeOoz/I4XA4HA6Hw+FwOBwOh8PhcDgcDofD4dRx9Ac5HA6Hw+FwOBwOh8PhcDgcDofD4XA4nDqO/iCH
+w+FwOBwOh8PhcDgcDofD4XA4HA6HU8fRH+RwOBwOh8PhcDgcDofD4XA4HA6Hw+Fw6jj6gxwOh8PhcDgcDofD4XA4HA6Hw+FwOBxOHUd/kMPhcDgcDofD4XA4
+HA6Hw+FwOBwOh8Op4+gPcjgcDofD4XA4HA6Hw+FwOBwOh8PhcDilnY3+nK55fxsf5/t/ebj8eo43m4711FhPI/az9Qx8PY3Yz9Yz8PU0Yj9bz2DX8yTuxVa8
+inexFzt59ib243keX+TVYbyN9zmyn9eP4nEc5Gsfsg7iWY5tZU3iYx53Yztfe5kjT1PazuvdPDuM1zm6E6O4G3di7WK2iIiIiIiIiIgMO/6fJCIiIr/yAw+A
+Twg=
+   </Chunk>
+  </Data>
+ </Plugin>
+
+ <!-- Dimension Pro -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Dimension Pro (large hall size=0)</Name>
+   <Binary>/home/jpc/.wine/drive_c/Program Files/Cakewalk/Vstplugins/Dimension Pro/Dimension Pro x64.dll</Binary>
+   <UniqueID>1684893299</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f9</Options>
+
+   <Chunk>
+eJzt2UFOFFEQBuBy4wU8ggsXJsS1OtDiIUwMiUFlFIVIwLhwNUdwC0fAC7jzAuiZLBBxuo30TKZ1MqnvTyrdPe/xzRv6AR0qYrIRc+V8/nT1jvdU06n2+OfT
+09F1lXMedOofp+/zD54ZvoetKu4ten/69u/k67A1dLrrX7Tmvh8rVePxuFXD3Yea+XZ29nDIWvbnkW7m/p3a+ZlrOnWxZ0Ynx8frP8cnl8eL91r/8+tn/jsi
+IktJ7zPFsrPoc4OIiIgUzu07v89vXJ1935ya0kzPv3vz1uR83qeryTM/DzXXD3M4HA6Hw+FwOBwOh8PhcDgcDofD4XA4nP/p6A9yOBwOh8PhcDgcDofD4XA4
+HA6Hw+FwOHUc/UEOh8PhcDgcDofD4XA4HA6Hw+FwOBwOp46jP8jhcDgcDofD4XA4HA6Hw+FwOBwOh8Ph1HH0BzkcDofD4XA4HA6Hw+FwOBwOh8PhcDicOo7+
+IIfD4XA4HA6Hw+FwOBwOh8PhcDgcDodTx9Ef5HA4HA6Hw+FwOBwOh8PhcDgcDofD4XDqOPqDHA6Hw+FwOBwOh8PhcDgcDofD4XA4HE4dR3+Qw+FwOBwOh8Ph
+cDgcDofD4XA4HA6Hw6nj6A9yOBwOh8PhcDgcDofD4XA4HA6Hw+FwOHUc/UEOh8PhcDgcDofD4XA4HA6Hw+FwOBwOp46jP8jhcDgcDofD4XA4HA6Hw+FwOBwO
+h8Ph1HH0BzkcDofD4XA4HA6Hw+FwOBwOh8PhcDicOo7+IIfD4XA4HA6Hw+FwOBwOh8PhcDgcDodTx9Ef5HA4HA6Hw+FwOBwOh8PhcDgcDofD4XDqOPqDHA6H
+w+FwOBwOh8PhcDgcDofD4XA4HE4dR3+Qw+FwOBwOh8PhcDgcDofD4XA4HA6Hw6nj6A9yOBwOh8PhcDgcDofD4XA4HA6Hw+FwOHUc/UEOh8PhcDgcDofD4XA4
+HA6Hw+FwOBwOp46jP8jhcDgcDofD4XA4HA6Hw+FwOBwOh8PhlHY2hnP65v1tvMn3//Jo8fWcbLYd66mxnlbsZ+tZ8fW0Yj9bz4qvpxX72XpWdj1P435sxet4
+F/uxk2dv4iBe5PFlXh3F23ifIwd5/TiexGG+9iHrMJ7n2FbWOD7mcS+287VXOfIspe283suzo9jN0Z0Yxb1Yu5wrIiIiIiIiIiKrHv9PEhERkV/5ARrDTp4=
+   </Chunk>
+  </Data>
+ </Plugin>
+
+ <!-- Dimension Pro -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Dimension Pro (mid hall size=100)</Name>
+   <Binary>/home/jpc/.wine/drive_c/Program Files/Cakewalk/Vstplugins/Dimension Pro/Dimension Pro x64.dll</Binary>
+   <UniqueID>1684893299</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f9</Options>
+
+   <Chunk>
+eJzt2c9OE1EUB+DjxhfwEVy4MDG6VQsjPoSJISH+oRGVSNC4cNVHcAuPgC/gzhdAn8lDRewMkWnT0aY53685mSn38vWWuYUJJ2KyGQvlbP5s9Y73VNOp9viX
+k5PRVZVzHnTqH6fv/Q+eOX6GrSruLXt9+vbv5NuwNXS661+2Fr4ea1Xj8bhVw12Hmvl+evpwyFr1+5FuFv6d2vnMNZ2a7pnR8dHRxq/xyflx+lobl79/7r8j
+IrKS9N5TrDrL3jeIiIhI4dy89ef82sXZj62ZKc3s/NvXb0zO5n2+mDz3/VBz9TCHw+FwOBwOh8PhcDgcDofD4XA4HA6Hw/mfjv4gh8PhcDgcDofD4XA4HA6H
+w+FwOBwOh1PH0R/kcDgcDofD4XA4HA6Hw+FwOBwOh8PhcOo4+oMcDofD4XA4HA6Hw+FwOBwOh8PhcDgcTh1Hf5DD4XA4HA6Hw+FwOBwOh8PhcDgcDofDqePo
+D3I4HA6Hw+FwOBwOh8PhcDgcDofD4XA4dRz9QQ6Hw+FwOBwOh8PhcDgcDofD4XA4HA6njqM/yOFwOBwOh8PhcDgcDofD4XA4HA6Hw+HUcfQHORwOh8PhcDgc
+DofD4XA4HA6Hw+FwOJw6jv4gh8PhcDgcDofD4XA4HA6Hw+FwOBwOh1PH0R/kcDgcDofD4XA4HA6Hw+FwOBwOh8PhcOo4+oMcDofD4XA4HA6Hw+FwOBwOh8Ph
+cDgcTh1Hf5DD4XA4HA6Hw+FwOBwOh8PhcDgcDofDqePoD3I4HA6Hw+FwOBwOh8PhcDgcDofD4XA4dRz9QQ6Hw+FwOBwOh8PhcDgcDofD4XA4HA6njqM/yOFw
+OBwOh8PhcDgcDofD4XA4HA6Hw+HUcfQHORwOh8PhcDgcDofD4XA4HA6Hw+FwOJw6jv4gh8PhcDgcDofD4XA4HA6Hw+FwOBwOh1PH0R/kcDgcDofD4XA4HA6H
+w+FwOBwOh8PhcOo4+oMcDofD4XA4HA6Hw+FwOBwOh8PhcDgcTmlnczinb97fxpt8/a+Pll/P8VbbsZ4a62nFfraeNV9PK/az9az5elqxn61nbdfzNO7HdryK
+d7Efu3n2Og7iRR5f5rP38SY+5MhBPn8cT+Iwv/Yx6zCe59h21jg+5XE/9nL+TirP4m0+dnJkL0d2YxT34m4+7pzPjWmJiIiIiIiIiMj6xv+TRERE5Hd+AlzG
+TrI=
+   </Chunk>
+  </Data>
+ </Plugin>
+
+ <!-- Dimension Pro -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Dimension Pro (mid hall size=50)</Name>
+   <Binary>/home/jpc/.wine/drive_c/Program Files/Cakewalk/Vstplugins/Dimension Pro/Dimension Pro x64.dll</Binary>
+   <UniqueID>1684893299</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f9</Options>
+
+   <Chunk>
+eJzt2UFOE2EUB/Dnhgt4BBcuSIwbNmphxEOYGBKCSkNVIgHiglWPwBaOgBdwxwXQM/kVETpD7LTpaG3e709eOuX7+PWVGWDCixhuxEwZ7R+v1vWWqhpVX/96
+cdGbVGXP80b95bS9/84zxfewVsm9ec9P2/U7vOy2uk6z/3lr5vOxVNXv92vV3XnIme9XVy+6rEW/H2lm5t+pjZ+5qlHX10zv/Oxs/df68Obx+rXW73/91H9H
+RGQhab2nWHTmvW8QERGRxHn0+O74we3Rj82xLdX4/tWVh8PRvtPbzVPfD1WTlzkcDofD4XA4HA6Hw+FwOBwOh8PhcDgczr90zAc5HA6Hw+FwOBwOh8PhcDgc
+DofD4XA4nDyO+SCHw+FwOBwOh8PhcDgcDofD4XA4HA6Hk8cxH+RwOBwOh8PhcDgcDofD4XA4HA6Hw+Fw8jjmgxwOh8PhcDgcDofD4XA4HA6Hw+FwOBxOHsd8
+kMPhcDgcDofD4XA4HA6Hw+FwOBwOh8PJ45gPcjgcDofD4XA4HA6Hw+FwOBwOh8PhcDh5HPNBDofD4XA4HA6Hw+FwOBwOh8PhcDgcDiePYz7I4XA4HA6Hw+Fw
+OBwOh8PhcDgcDofD4eRxzAc5HA6Hw+FwOBwOh8PhcDgcDofD4XA4nDyO+SCHw+FwOBwOh8PhcDgcDofD4XA4HA6Hk8cxH+RwOBwOh8PhcDgcDofD4XA4HA6H
+w+Fw8jjmgxwOh8PhcDgcDofD4XA4HA6Hw+FwOBxOHsd8kMPhcDgcDofD4XA4HA6Hw+FwOBwOh8PJ45gPcjgcDofD4XA4HA6Hw+FwOBwOh8PhcDh5HPNBDofD
+4XA4HA6Hw+FwOBwOh8PhcDgcDiePYz7I4XA4HA6Hw+FwOBwOh8PhcDgcDofD4eRxzAc5HA6Hw+FwOBwOh8PhcDgcDofD4XA4nDyO+SCHw+FwOBwOh8PhcDgc
+DofD4XA4HA6Hk8cxH+RwOBwOh8PhcDgcDofD4XA4HA6Hw+FwUjsb3Tlt+/60XpXX//Zy/n7ON+uOfnL0U4vrWT9L3k8trmf9LHk/tbie9bO0/byJZ7EVe/E5
+9mO3HH2Ig3hXHt+XZ0fxMY7LykF5/ipex2H53JdSh/G2rG2V6sdJedyPQdm/XZSd+FQ+tsvKoKzsRi/W4mk8udk5ysnkBkVERERERERE5D+P/yeJiIjI7/wE
+lvBOWg==
+   </Chunk>
+  </Data>
+ </Plugin>
+
+ <!-- Dimension Pro -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Dimension Pro (mid hall size=0)</Name>
+   <Binary>/home/jpc/.wine/drive_c/Program Files/Cakewalk/Vstplugins/Dimension Pro/Dimension Pro x64.dll</Binary>
+   <UniqueID>1684893299</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f9</Options>
+
+   <Chunk>
+eJzt2U9OE3EUB/Dnxgt4BBcuTIxrpTDiIUxMEyJKI2gDQeOCVY/gFo6AF3DHBcAz+eOP2BlDp00Hm8n7fMlLp/x+fPrKDDDhRUw2YqFc7p+u1vWWqhpVX/9x
+ejqYVWXPy0bdc9ref+eZ43tYq+Tesuen7fqdnHVbXafZ/7K18PnoVY1Go1p1dx5y5uL8fK3LWvX7kWYW/p3a+JmrGnV1zQxOjo/Xr9cnN49Xr7X+79fP/XdE
+RFaS1nuKVWfZ+wYRERFJnMdP/h4/uD36tTm1pZre//Tho8nlvu+3m+e+H6pmL3M4HA6Hw+FwOBwOh8PhcDgcDofD4XA4nP/pmA9yOBwOh8PhcDgcDofD4XA4
+HA6Hw+FwOHkc80EOh8PhcDgcDofD4XA4HA6Hw+FwOBwOJ49jPsjhcDgcDofD4XA4HA6Hw+FwOBwOh8Ph5HHMBzkcDofD4XA4HA6Hw+FwOBwOh8PhcDicPI75
+IIfD4XA4HA6Hw+FwOBwOh8PhcDgcDoeTxzEf5HA4HA6Hw+FwOBwOh8PhcDgcDofD4XDyOOaDHA6Hw+FwOBwOh8PhcDgcDofD4XA4HE4ex3yQw+FwOBwOh8Ph
+cDgcDofD4XA4HA6Hw8njmA9yOBwOh8PhcDgcDofD4XA4HA6Hw+FwOHkc80EOh8PhcDgcDofD4XA4HA6Hw+FwOBwOJ49jPsjhcDgcDofD4XA4HA6Hw+FwOBwO
+h8Ph5HHMBzkcDofD4XA4HA6Hw+FwOBwOh8PhcDicPI75IIfD4XA4HA6Hw+FwOBwOh8PhcDgcDoeTxzEf5HA4HA6Hw+FwOBwOh8PhcDgcDofD4XDyOOaDHA6H
+w+FwOBwOh8PhcDgcDofD4XA4HE4ex3yQw+FwOBwOh8PhcDgcDofD4XA4HA6Hw8njmA9yOBwOh8PhcDgcDofD4XA4HA6Hw+FwOHkc80EOh8PhcDgcDofD4XA4
+HA6Hw+FwOBwOJ49jPsjhcDgcDofD4XA4HA6Hw+FwOBwOh8PhpHY2unPa9t21XpXX//lq+X5ONuuOfnL0U4vrWT8976cW17N+et5PLa5n/fS2n7fxIobxMfZj
+HDvlaC8O4n15/FCefYlP8bWsHJTnr+NNHJbPfSt1GNtlbVhqFEflcRy7Zf9WUd7F5/KxVVZ2y8pODOJ5PLvZd52jZgMiIiIiIiIiItKr+H+SiIiI/MlvoItN
+8A==
+   </Chunk>
+  </Data>
+ </Plugin>
+
+ <!-- Dimension Pro -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Dimension Pro (small hall size=100)</Name>
+   <Binary>/home/jpc/.wine/drive_c/Program Files/Cakewalk/Vstplugins/Dimension Pro/Dimension Pro x64.dll</Binary>
+   <UniqueID>1684893299</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f9</Options>
+
+   <Chunk>
+eJzt2c9OE1EUB+DjxhfgEVy4MDG4FQsjPISJITGINPIvEiAuXPUR3MIj4Au48wXQZ+JSATtDZNp0tJmc79eczJR7+XrL3MKEEzFai5lyPX+yWsdbqmpUffzb
+xcXgoSpzVhr1j9P2/jvPFD/DWiX35r0+bft39KPb6jrN9c9bM1+PXtVwOKxVd9chZ35eXr7qshb9fqSZmX+nNj5zVaPGe2Zwfna2+nt8dHMcv9bq/e+f+u+I
+iCwkrfcUi8689w0iIiKSOE+e/jl/dHf2a31iSjU5/9njpdH1vK93k6e+H6oeHuZwOBwOh8PhcDgcDofD4XA4HA6Hw+FwOP/T0R/kcDgcDofD4XA4HA6Hw+Fw
+OBwOh8PhcPI4+oMcDofD4XA4HA6Hw+FwOBwOh8PhcDgcTh5Hf5DD4XA4HA6Hw+FwOBwOh8PhcDgcDofDyePoD3I4HA6Hw+FwOBwOh8PhcDgcDofD4XA4eRz9
+QQ6Hw+FwOBwOh8PhcDgcDofD4XA4HA4nj6M/yOFwOBwOh8PhcDgcDofD4XA4HA6Hw+HkcfQHORwOh8PhcDgcDofD4XA4HA6Hw+FwOJw8jv4gh8PhcDgcDofD
+4XA4HA6Hw+FwOBwOh5PH0R/kcDgcDofD4XA4HA6Hw+FwOBwOh8PhcPI4+oMcDofD4XA4HA6Hw+FwOBwOh8PhcDgcTh5Hf5DD4XA4HA6Hw+FwOBwOh8PhcDgc
+DofDyePoD3I4HA6Hw+FwOBwOh8PhcDgcDofD4XA4eRz9QQ6Hw+FwOBwOh8PhcDgcDofD4XA4HA4nj6M/yOFwOBwOh8PhcDgcDofD4XA4HA6Hw+HkcfQHORwO
+h8PhcDgcDofD4XA4HA6Hw+FwOJw8jv4gh8PhcDgcDofD4XA4HA6Hw+FwOBwOh5PH0R/kcDgcDofD4XA4HA6Hw+FwOBwOh8PhcPI4+oMcDofD4XA4HA6Hw+Fw
+OBwOh8PhcDgcTh5Hf5DD4XA4HA6Hw+FwOBwOh8PhcDgcDofDSe2sdee0zfvbeFVe//vr+ddzvl53rCfHemqxn62n5+upxX62np6vpxb72Xp6u5638TI242N8
+isPYKWd7cRTb5fihPDuJ/TgtI0fl+Ua8iePytc+ljuN9GdssNYwv4+NhbMVBebwr0u3ZSeyW0Z0YxItYLo/nN/NFRERERERERKTP8f8kERERuc0Vr0FPfA==
+   </Chunk>
+  </Data>
+ </Plugin>
+
+ <!-- Dimension Pro -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Dimension Pro (small hall size=50)</Name>
+   <Binary>/home/jpc/.wine/drive_c/Program Files/Cakewalk/Vstplugins/Dimension Pro/Dimension Pro x64.dll</Binary>
+   <UniqueID>1684893299</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f9</Options>
+
+   <Chunk>
+eJzt2c9OE1EUB+DjxhfgEVy4MDFs3IiFER7CxJAYRBr5FwkQF676CG7hEfAF3PkC6DNxqYCdITJtOtpMzvcjJzPl3n69ZS50wokYrcVMuZ4/Wa3jLVU1qj7+
+7eJi8FCVOSuN+sdpe/+dZ4qfYa2Se/Nen7b9O/rRbXWd5vrnrZmvR69qOBzWqrvrkDM/Ly9fdVmLfj/SzMx/Uxu/c1WjxntmcH52tvp7fHRzHL/W6v3nT/05
+IiILSes9xaIz732DiIiIJM6Tp3/OH92d/VqfmFJNzn/2eGl0Pe/r3eSp74eqh4c5HA6Hw+FwOBwOh8PhcDgcDofD4XA4HM7/dPQHORwOh8PhcDgcDofD4XA4
+HA6Hw+FwOJw8jv4gh8PhcDgcDofD4XA4HA6Hw+FwOBwOh5PH0R/kcDgcDofD4XA4HA6Hw+FwOBwOh8PhcPI4+oMcDofD4XA4HA6Hw+FwOBwOh8PhcDgcTh5H
+f5DD4XA4HA6Hw+FwOBwOh8PhcDgcDofDyePoD3I4HA6Hw+FwOBwOh8PhcDgcDofD4XA4eRz9QQ6Hw+FwOBwOh8PhcDgcDofD4XA4HA4nj6M/yOFwOBwOh8Ph
+cDgcDofD4XA4HA6Hw+HkcfQHORwOh8PhcDgcDofD4XA4HA6Hw+FwOJw8jv4gh8PhcDgcDofD4XA4HA6Hw+FwOBwOh5PH0R/kcDgcDofD4XA4HA6Hw+FwOBwO
+h8PhcPI4+oMcDofD4XA4HA6Hw+FwOBwOh8PhcDgcTh5Hf5DD4XA4HA6Hw+FwOBwOh8PhcDgcDofDyePoD3I4HA6Hw+FwOBwOh8PhcDgcDofD4XA4eRz9QQ6H
+w+FwOBwOh8PhcDgcDofD4XA4HA4nj6M/yOFwOBwOh8PhcDgcDofD4XA4HA6Hw+HkcfQHORwOh8PhcDgcDofD4XA4HA6Hw+FwOJw8jv4gh8PhcDgcDofD4XA4
+HA6Hw+FwOBwOh5PH0R/kcDgcDofD4XA4HA6Hw+FwOBwOh8PhcFI7a905bfP+Nl6V1//+ev71nK/XHevJsZ5a7Gfr6fl6arGfrafn66nFfrae3q7nbbyMzfgY
+n+IwdsrZXhzFdjl+KI9OYj9Oy8hRebwRb+K4fO9zqeN4X8Y2Sw3jy/h4GFtxUL7eFen27CR2y+hODOJFLMfzm9kiIiIiIiIiItLv+H+SiIiI3OYK6stPJA==
+   </Chunk>
+  </Data>
+ </Plugin>
+
+ <!-- Dimension Pro -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Dimension Pro (small hall size=0)</Name>
+   <Binary>/home/jpc/.wine/drive_c/Program Files/Cakewalk/Vstplugins/Dimension Pro/Dimension Pro x64.dll</Binary>
+   <UniqueID>1684893299</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f9</Options>
+
+   <Chunk>
+eJzt2UFOE1EYB/CPjRfwCCxcmBjXSGHEQ5AYEiNKowKBgHHhqkdgC0eAC7DzAuiZfFTAzhCZNh1sJt/vT77MlPf66yvzoBO+iNF6zJTr+ZPVOt5SVaPq4xfn
+54OHqsx51ahHTtv77zxT/Axrldyb9/q07d/Rj26r6zTXP2/NfD16VcPhsFbdXYec+Xl1tdplLfr9SDMz/01t/M5VjRrvmcHZ6enan/HRzXH8Wmv3nz/154iI
+LCSt9xSLzrz3DSIiIpI4y8/+ni/dnf3amJhSTc5//uTp6Hreyd3kqe+HqoeHORwOh8PhcDgcDofD4XA4HA6Hw+FwOBzO/3T0BzkcDofD4XA4HA6Hw+FwOBwO
+h8PhcDicPI7+IIfD4XA4HA6Hw+FwOBwOh8PhcDgcDoeTx9Ef5HA4HA6Hw+FwOBwOh8PhcDgcDofD4XDyOPqDHA6Hw+FwOBwOh8PhcDgcDofD4XA4HE4eR3+Q
+w+FwOBwOh8PhcDgcDofD4XA4HA6Hw8nj6A9yOBwOh8PhcDgcDofD4XA4HA6Hw+FwOHkc/UEOh8PhcDgcDofD4XA4HA6Hw+FwOBwOJ4+jP8jhcDgcDofD4XA4
+HA6Hw+FwOBwOh8Ph5HH0BzkcDofD4XA4HA6Hw+FwOBwOh8PhcDicPI7+IIfD4XA4HA6Hw+FwOBwOh8PhcDgcDoeTx9Ef5HA4HA6Hw+FwOBwOh8PhcDgcDofD
+4XDyOPqDHA6Hw+FwOBwOh8PhcDgcDofD4XA4HE4eR3+Qw+FwOBwOh8PhcDgcDofD4XA4HA6Hw8nj6A9yOBwOh8PhcDgcDofD4XA4HA6Hw+FwOHkc/UEOh8Ph
+cDgcDofD4XA4HA6Hw+FwOBwOJ4+jP8jhcDgcDofD4XA4HA6Hw+FwOBwOh8Ph5HH0BzkcDofD4XA4HA6Hw+FwOBwOh8PhcDicPI7+IIfD4XA4HA6Hw+FwOBwO
+h8PhcDgcDoeTx9Ef5HA4HA6Hw+FwOBwOh8PhcDgcDofD4XBSO+vdOW3z/jVelde/fD3/es426o715FhPLfaz9fR8PbXYz9bT8/XUYj9bT2/X8zZWYis+xUHs
+x045+xKH8aEcP5ZHx7EbX8vIYXn8JjbjqHzvW6mj2C5jW6WG8X183I/3sVe+3hXp9uw4PpfRnRjEy3hxM1dERERERERERPoe/08SERGR2/wG9g5Oug==
+   </Chunk>
+  </Data>
+ </Plugin>
+
+ <!-- Dimension Pro -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Dimension Pro (large room size=100)</Name>
+   <Binary>/home/jpc/.wine/drive_c/Program Files/Cakewalk/Vstplugins/Dimension Pro/Dimension Pro x64.dll</Binary>
+   <UniqueID>1684893299</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f9</Options>
+
+   <Chunk>
+eJzt2c1OE1EUB/DjxhfwEVy4MDG6VQsVH8LEkBA/qPgVCBoXrvoIbuER8AXc+QLoM3moiJ0xMm062kzO709OZtp7+fWWuYUJJ2K6GUvlbP58dY531LhVzfHP
+Jyejyyrn3GvVP07X++89C/wMG1XcW/X6dO3f6dd+q++0179qLX09BlWTyaRR/V2Hmvl2enq/z1r3+5F2lv6d2vrMjVs12zOj46OjjZ/j0/Pj7LU2/vz+hf+O
+iMha0nlPse6set8gIiIihXP9xu/zKxdn37fmpozn59+8em16Nu/TxeSF74fGlw9zOBwOh8PhcDgcDofD4XA4HA6Hw+FwOJz/6egPcjgcDofD4XA4HA6Hw+Fw
+OBwOh8PhcDh1HP1BDofD4XA4HA6Hw+FwOBwOh8PhcDgcDqeOoz/I4XA4HA6Hw+FwOBwOh8PhcDgcDofD4dRx9Ac5HA6Hw+FwOBwOh8PhcDgcDofD4XA4nDqO
+/iCHw+FwOBwOh8PhcDgcDofD4XA4HA6HU8fRH+RwOBwOh8PhcDgcDofD4XA4HA6Hw+Fw6jj6gxwOh8PhcDgcDofD4XA4HA6Hw+FwOBxOHUd/kMPhcDgcDofD
+4XA4HA6Hw+FwOBwOh8Op4+gPcjgcDofD4XA4HA6Hw+FwOBwOh8PhcDh1HP1BDofD4XA4HA6Hw+FwOBwOh8PhcDgcDqeOoz/I4XA4HA6Hw+FwOBwOh8PhcDgc
+DofD4dRx9Ac5HA6Hw+FwOBwOh8PhcDgcDofD4XA4nDqO/iCHw+FwOBwOh8PhcDgcDofD4XA4HA6HU8fRH+RwOBwOh8PhcDgcDofD4XA4HA6Hw+Fw6jj6gxwO
+h8PhcDgcDofD4XA4HA6Hw+FwOBxOHUd/kMPhcDgcDofD4XA4HA6Hw+FwOBwOh8Op4+gPcjgcDofD4XA4HA6Hw+FwOBwOh8PhcDh1HP1BDofD4XA4HA6Hw+Fw
+OBwOh8PhcDgcDqeOoz/I4XA4HA6Hw+FwOBwOh8PhcDgcDofD4ZR2Nvtzuub9bXycr//lwerrOd5qOtZTYz2N2M/WM/D1NGI/W8/A19OI/Ww9g13P47gb27EX
++/E2dvPsVRzEszw+z0fv4nW8z5GDfPwwHsVhPvch6zCe5th21iQ+5vFNPMnnXuTITh73Z9ZOjr7M0d0YxZ24nV+3zueLiIiIiIiIiMiQ4/9JIiIi8is/AIhH
+T5g=
+   </Chunk>
+  </Data>
+ </Plugin>
+
+ <!-- Dimension Pro -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Dimension Pro (large room size=50)</Name>
+   <Binary>/home/jpc/.wine/drive_c/Program Files/Cakewalk/Vstplugins/Dimension Pro/Dimension Pro x64.dll</Binary>
+   <UniqueID>1684893299</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f9</Options>
+
+   <Chunk>
+eJzt2UFOE1EYB/DPjRfgCC5cmBg2bpTCgIcwMSREkIoKgaBx4apHcAtHwAu44wLomXxUhM4YmTYdaCbf7598mWnf49fXzgMm/SJGazFTLudPVut4S1WNqo9/
+Pzsb3FZlzotG3XHa3n/nmeIzrFVyb97r07Z/R+fdVtdprn/emvl69KqGw2GtursOOfPz4mKly1r0+5FmZv6b2vidqxo13jOD05OT1T/jo6vj+LVW//35qf+P
+iMhC0npPsejMe98gIiIiifPo8c35g+uzXxsTU6rJ+U8eLo0u5327njz1/VB1+zCHw+FwOBwOh8PhcDgcDofD4XA4HA6Hw7lPR3+Qw+FwOBwOh8PhcDgcDofD
+4XA4HA6Hw8nj6A9yOBwOh8PhcDgcDofD4XA4HA6Hw+FwOHkc/UEOh8PhcDgcDofD4XA4HA6Hw+FwOBwOJ4+jP8jhcDgcDofD4XA4HA6Hw+FwOBwOh8Ph5HH0
+BzkcDofD4XA4HA6Hw+FwOBwOh8PhcDicPI7+IIfD4XA4HA6Hw+FwOBwOh8PhcDgcDoeTx9Ef5HA4HA6Hw+FwOBwOh8PhcDgcDofD4XDyOPqDHA6Hw+FwOBwO
+h8PhcDgcDofD4XA4HE4eR3+Qw+FwOBwOh8PhcDgcDofD4XA4HA6Hw8nj6A9yOBwOh8PhcDgcDofD4XA4HA6Hw+FwOHkc/UEOh8PhcDgcDofD4XA4HA6Hw+Fw
+OBwOJ4+jP8jhcDgcDofD4XA4HA6Hw+FwOBwOh8Ph5HH0BzkcDofD4XA4HA6Hw+FwOBwOh8PhcDicPI7+IIfD4XA4HA6Hw+FwOBwOh8PhcDgcDoeTx9Ef5HA4
+HA6Hw+FwOBwOh8PhcDgcDofD4XDyOPqDHA6Hw+FwOBwOh8PhcDgcDofD4XA4HE4eR3+Qw+FwOBwOh8PhcDgcDofD4XA4HA6Hw8nj6A9yOBwOh8PhcDgcDofD
+4XA4HA6Hw+FwOHkc/UEOh8PhcDgcDofD4XA4HA6Hw+FwOBwOJ7Wz1p3TNu9/41V5/R/r86/ndKPuWE+O9dRiP1tPz9dTi/1sPT1fTy32s/X0dj2v43lsxl4c
+xkHslrMPcRQ75fi2PPoUH+NzGTkqj1/Gqzguz30pdRzbZWyz1DC+luN+vCnPvSsjW+V4OLa2yuj7Mrobg3gWy/H0araIiIiIiIiIiPQ7vk8SERGRv/kNw9FP
+QA==
+   </Chunk>
+  </Data>
+ </Plugin>
+
+ <!-- Dimension Pro -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Dimension Pro (large room size=0)</Name>
+   <Binary>/home/jpc/.wine/drive_c/Program Files/Cakewalk/Vstplugins/Dimension Pro/Dimension Pro x64.dll</Binary>
+   <UniqueID>1684893299</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f9</Options>
+
+   <Chunk>
+eJzt2UFOE1EYB/DPjRfwCC5cmBDWSmGEQ5AQEqJIVZBAkLhw1SO4hSPgBdx5AeBMPipiZwxMm442k+/3T77MtO/x62vnAZN+EaO1mCk38yerdbylqkbVx79d
+XAweqjLnZaP+cdref+eZ4jOsVXJv3uvTtn9HP7qtrtNc/7w18/XoVQ2Hw1p1dx1y5urycqXLWvT7kWZm/pva+J2rGjXeM4Pzs7PVX+Oj2+P4tVb//vmp/4+I
+yELSek+x6Mx73yAiIiKJ8/TZn/NHd2fX6xNTqsn5zx8/Gd3M+3o3eer7oerhYQ6Hw+FwOBwOh8PhcDgcDofD4XA4HA6H8z8d/UEOh8PhcDgcDofD4XA4HA6H
+w+FwOBwOJ4+jP8jhcDgcDofD4XA4HA6Hw+FwOBwOh8Ph5HH0BzkcDofD4XA4HA6Hw+FwOBwOh8PhcDicPI7+IIfD4XA4HA6Hw+FwOBwOh8PhcDgcDoeTx9Ef
+5HA4HA6Hw+FwOBwOh8PhcDgcDofD4XDyOPqDHA6Hw+FwOBwOh8PhcDgcDofD4XA4HE4eR3+Qw+FwOBwOh8PhcDgcDofD4XA4HA6Hw8nj6A9yOBwOh8PhcDgc
+DofD4XA4HA6Hw+FwOHkc/UEOh8PhcDgcDofD4XA4HA6Hw+FwOBwOJ4+jP8jhcDgcDofD4XA4HA6Hw+FwOBwOh8Ph5HH0BzkcDofD4XA4HA6Hw+FwOBwOh8Ph
+cDicPI7+IIfD4XA4HA6Hw+FwOBwOh8PhcDgcDoeTx9Ef5HA4HA6Hw+FwOBwOh8PhcDgcDofD4XDyOPqDHA6Hw+FwOBwOh8PhcDgcDofD4XA4HE4eR3+Qw+Fw
+OBwOh8PhcDgcDofD4XA4HA6Hw8nj6A9yOBwOh8PhcDgcDofD4XA4HA6Hw+FwOHkc/UEOh8PhcDgcDofD4XA4HA6Hw+FwOBwOJ4+jP8jhcDgcDofD4XA4HA6H
+w+FwOBwOh8Ph5HH0BzkcDofD4XA4HA6Hw+FwOBwOh8PhcDic1M5ad07bvPvGq/L631/Nv57z9bpjPTnWU4v9bD09X08t9rP19Hw9tdjP1tPb9WzFi9iO93EU
+h7FXzvbjOHbL8W159CkO4rSMHJfHG7EZJ+W5z6VO4k0Z2y41jC/l+DFel+felZGdcjwaWztl9EMZ3YtBLMfS7VwREREREREREel7fJ8kIiIiv/MTzxRO1g==
+   </Chunk>
+  </Data>
+ </Plugin>
+
+ <!-- Dimension Pro -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Dimension Pro (mid room size=100)</Name>
+   <Binary>/home/jpc/.wine/drive_c/Program Files/Cakewalk/Vstplugins/Dimension Pro/Dimension Pro x64.dll</Binary>
+   <UniqueID>1684893299</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f9</Options>
+
+   <Chunk>
+eJzt2UFOE1EYB/CPjRfwCCxcmBDdooUBDmFiSEhUGpEQCBgXrHoEtnAEvAA7L4CciUdF7AyRadPRZvL9/uTLTPsev74yrzDhixitx0y5mz9ZreMtVTWqPv79
+8nLwVJU5bxr1j9P2/jvPFD/DWiX35r0+bft39KPb6jrN9c9bM1+PXtVwOKxVd9chZ35eX7/tshb9fqSZmX+nNj5zVaPGe2ZwcX6+9mt8dH8cv9ba4++f+u+I
+iCwkrfcUi8689w0iIiKSOMsv/pwvPZzdbE5MqSbnv3z2fHQ37+xh8tT3Q9XTwxwOh8PhcDgcDofD4XA4HA6Hw+FwOBwO5386+oMcDofD4XA4HA6Hw+FwOBwO
+h8PhcDgcTh5Hf5DD4XA4HA6Hw+FwOBwOh8PhcDgcDofDyePoD3I4HA6Hw+FwOBwOh8PhcDgcDofD4XA4eRz9QQ6Hw+FwOBwOh8PhcDgcDofD4XA4HA4nj6M/
+yOFwOBwOh8PhcDgcDofD4XA4HA6Hw+HkcfQHORwOh8PhcDgcDofD4XA4HA6Hw+FwOJw8jv4gh8PhcDgcDofD4XA4HA6Hw+FwOBwOh5PH0R/kcDgcDofD4XA4
+HA6Hw+FwOBwOh8PhcPI4+oMcDofD4XA4HA6Hw+FwOBwOh8PhcDgcTh5Hf5DD4XA4HA6Hw+FwOBwOh8PhcDgcDofDyePoD3I4HA6Hw+FwOBwOh8PhcDgcDofD
+4XA4eRz9QQ6Hw+FwOBwOh8PhcDgcDofD4XA4HA4nj6M/yOFwOBwOh8PhcDgcDofD4XA4HA6Hw+HkcfQHORwOh8PhcDgcDofD4XA4HA6Hw+FwOJw8jv4gh8Ph
+cDgcDofD4XA4HA6Hw+FwOBwOh5PH0R/kcDgcDofD4XA4HA6Hw+FwOBwOh8PhcPI4+oMcDofD4XA4HA6Hw+FwOBwOh8PhcDgcTh5Hf5DD4XA4HA6Hw+FwOBwO
+h8PhcDgcDofDyePoD3I4HA6Hw+FwOBwOh8PhcDgcDofD4XA4qZ317py2eX8br8rrX23Mv56LzbpjPTnWU4v9bD09X08t9rP19Hw9tdjP1tPb9byP1diOz3EY
+B7Fbzr7EUXwsx0/l0Unsx9cyclQeb8W7OC7PfSt1HB/K2HapYZyW40Hslfk75fnDsbNTRvbKyG4M4nW8Kl8r93NjXCIiIiIiIiIi0t/4f5KIiIj8zi0SBk7q
+   </Chunk>
+  </Data>
+ </Plugin>
+
+ <!-- Dimension Pro -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Dimension Pro (mid room size=50)</Name>
+   <Binary>/home/jpc/.wine/drive_c/Program Files/Cakewalk/Vstplugins/Dimension Pro/Dimension Pro x64.dll</Binary>
+   <UniqueID>1684893299</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f9</Options>
+
+   <Chunk>
+eJzt2U9OE3EUB/Dnxgt4BBcsTIwbNmBhxEOQEBISlUY0BILGBasegS0cAS7gzgsgZ/LX8sfOGDttOlqa9/kmL5329+PTV2aACS9isBkzZbh/vFrXW6pqVH39
+6vKyN6nKnvVG/eO0ff7OM8X3sFbJvXnPT9v1O/jRbXWdZv/z1sznY6mq3+/XqrvzkDM/r69fd1mL/jzSzMy/Uxs/c1WjRtdM7+L8fON2fXD3OHqvjT+/fuq/
+IyKykLTeUyw68943iIiISOI8X/l9/OTh6GZrbEs1vv/F02eD4b6zh81T3w9Vk5c5HA6Hw+FwOBwOh8PhcDgcDofD4XA4HM7/dMwHORwOh8PhcDgcDofD4XA4
+HA6Hw+FwOJw8jvkgh8PhcDgcDofD4XA4HA6Hw+FwOBwOh5PHMR/kcDgcDofD4XA4HA6Hw+FwOBwOh8PhcPI45oMcDofD4XA4HA6Hw+FwOBwOh8PhcDgcTh7H
+fJDD4XA4HA6Hw+FwOBwOh8PhcDgcDofDyeOYD3I4HA6Hw+FwOBwOh8PhcDgcDofD4XA4eRzzQQ6Hw+FwOBwOh8PhcDgcDofD4XA4HA4nj2M+yOFwOBwOh8Ph
+cDgcDofD4XA4HA6Hw+HkccwHORwOh8PhcDgcDofD4XA4HA6Hw+FwOJw8jvkgh8PhcDgcDofD4XA4HA6Hw+FwOBwOh5PHMR/kcDgcDofD4XA4HA6Hw+FwOBwO
+h8PhcPI45oMcDofD4XA4HA6Hw+FwOBwOh8PhcDgcTh7HfJDD4XA4HA6Hw+FwOBwOh8PhcDgcDofDyeOYD3I4HA6Hw+FwOBwOh8PhcDgcDofD4XA4eRzzQQ6H
+w+FwOBwOh8PhcDgcDofD4XA4HA4nj2M+yOFwOBwOh8PhcDgcDofD4XA4HA6Hw+HkccwHORwOh8PhcDgcDofD4XA4HA6Hw+FwOJw8jvkgh8PhcDgcDofD4XA4
+HA6Hw+FwOBwOh5PHMR/kcDgcDofD4XA4HA6Hw+FwOBwOh8PhcFI7m905bfv+tl6V9//+Zv5+Lrbqjn5y9FOL61k/S95PLa5n/Sx5P7W4nvWztP3sxFrsxsc4
+isPYL0ef4jjel8cP5dmX+Bxfy8pxef42tuOkvPat1Em8K2u7pfpxWh4P46Ds3yuvH42cvbJyUFb2oxer8Spe3u0c5nRygyIiIiIiIiIi8sjj/0kiIiJyn19M
+ME6S
+   </Chunk>
+  </Data>
+ </Plugin>
+
+ <!-- Dimension Pro -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Dimension Pro (mid room size=0)</Name>
+   <Binary>/home/jpc/.wine/drive_c/Program Files/Cakewalk/Vstplugins/Dimension Pro/Dimension Pro x64.dll</Binary>
+   <UniqueID>1684893299</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f9</Options>
+
+   <Chunk>
+eJzt2UFOE2EUB/Dnhgt4BBcuSAxrtTDAIUwMCQlKIxICQcOCVY/gFo6AF3DHBYAz+VEQO0Ng2nS0mbzfP3nptN/Hr6/MABNexGgtZsrt/slqXW+pqlH19Z8X
+F4Pnqux516h/nLbP33mm+B7WKrk37/lpu35Hl91W12n2P2/NfD56VcPhsFbdnYecub66et9lLfrzSDMz/05t/MxVjRpfM4Pzs7PVu/XR/eP4vVYff/3Uf0dE
+ZCFpvadYdOa9bxAREZHEefX67/GLh6ObjYkt1eT+5aWXo9t9Px42T30/VD2/zOFwOBwOh8PhcDgcDofD4XA4HA6Hw+Fw/qdjPsjhcDgcDofD4XA4HA6Hw+Fw
+OBwOh8Ph5HHMBzkcDofD4XA4HA6Hw+FwOBwOh8PhcDicPI75IIfD4XA4HA6Hw+FwOBwOh8PhcDgcDoeTxzEf5HA4HA6Hw+FwOBwOh8PhcDgcDofD4XDyOOaD
+HA6Hw+FwOBwOh8PhcDgcDofD4XA4HE4ex3yQw+FwOBwOh8PhcDgcDofD4XA4HA6Hw8njmA9yOBwOh8PhcDgcDofD4XA4HA6Hw+FwOHkc80EOh8PhcDgcDofD
+4XA4HA6Hw+FwOBwOJ49jPsjhcDgcDofD4XA4HA6Hw+FwOBwOh8Ph5HHMBzkcDofD4XA4HA6Hw+FwOBwOh8PhcDicPI75IIfD4XA4HA6Hw+FwOBwOh8PhcDgc
+DoeTxzEf5HA4HA6Hw+FwOBwOh8PhcDgcDofD4XDyOOaDHA6Hw+FwOBwOh8PhcDgcDofD4XA4HE4ex3yQw+FwOBwOh8PhcDgcDofD4XA4HA6Hw8njmA9yOBwO
+h8PhcDgcDofD4XA4HA6Hw+FwOHkc80EOh8PhcDgcDofD4XA4HA6Hw+FwOBwOJ49jPsjhcDgcDofD4XA4HA6Hw+FwOBwOh8Ph5HHMBzkcDofD4XA4HA6Hw+Fw
+OBwOh8PhcDicPI75IIfD4XA4HA6Hw+FwOBwOh8PhcDgcDoeT2lnrzmnb99R6Vd7/1/r8/Zxv1B395OinFtezfnreTy2uZ/30vJ9aXM/66W0/H+NtbMWXOIyD
+2C1HX+MoPpXHz+XZt9iP72XlqDzfjA9xXF47KXUcO2Vtq9QwTsvjQeyV/dvl9cOxs11W9srKbgxiJd7c77vLabMBERERERERERHpVfw/SURERP7kN1XLTig=
+   </Chunk>
+  </Data>
+ </Plugin>
+
+ <!-- Dimension Pro -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Dimension Pro (small room size=100)</Name>
+   <Binary>/home/jpc/.wine/drive_c/Program Files/Cakewalk/Vstplugins/Dimension Pro/Dimension Pro x64.dll</Binary>
+   <UniqueID>1684893299</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f9</Options>
+
+   <Chunk>
+eJzt2c9OE1EUB+DDxhfgEViwMDG4RQsjPgSJISEqNKISCBoXrPoIbuER4AXc+QLoM3kpf+yMkWnT0WZyvl9zMtPey9db5gITTsRoM2bK9fzJah1vqapR9fHL
+i4vBQ1XmPGvUP07b5+88U3wPa5Xcm/f6tO3f0fduq+s01z9vzXw9elXD4bBW3V2HnPlxdfW8y1r055FmZv6d2viZqxo13jOD87OzjZvx0e1x/F4bf3791H9H
+RGQhab2nWHTmvW8QERGRxFlZ/X2+dH/2c2tiSjU5//Gj5dH1vK/3k6e+H6oeHuZwOBwOh8PhcDgcDofD4XA4HA6Hw+FwOP/T0R/kcDgcDofD4XA4HA6Hw+Fw
+OBwOh8PhcPI4+oMcDofD4XA4HA6Hw+FwOBwOh8PhcDgcTh5Hf5DD4XA4HA6Hw+FwOBwOh8PhcDgcDofDyePoD3I4HA6Hw+FwOBwOh8PhcDgcDofD4XA4eRz9
+QQ6Hw+FwOBwOh8PhcDgcDofD4XA4HA4nj6M/yOFwOBwOh8PhcDgcDofD4XA4HA6Hw+HkcfQHORwOh8PhcDgcDofD4XA4HA6Hw+FwOJw8jv4gh8PhcDgcDofD
+4XA4HA6Hw+FwOBwOh5PH0R/kcDgcDofD4XA4HA6Hw+FwOBwOh8PhcPI4+oMcDofD4XA4HA6Hw+FwOBwOh8PhcDgcTh5Hf5DD4XA4HA6Hw+FwOBwOh8PhcDgc
+DofDyePoD3I4HA6Hw+FwOBwOh8PhcDgcDofD4XA4eRz9QQ6Hw+FwOBwOh8PhcDgcDofD4XA4HA4nj6M/yOFwOBwOh8PhcDgcDofD4XA4HA6Hw+HkcfQHORwO
+h8PhcDgcDofD4XA4HA6Hw+FwOJw8jv4gh8PhcDgcDofD4XA4HA6Hw+FwOBwOh5PH0R/kcDgcDofD4XA4HA6Hw+FwOBwOh8PhcPI4+oMcDofD4XA4HA6Hw+Fw
+OBwOh8PhcDgcTh5Hf5DD4XA4HA6Hw+FwOBwOh8PhcDgcDofDSe1sdue0zfvbeFXe/9uL+ddzvlV3rCfHemqxn62n5+upxX62np6vpxb72Xp6u55XsR478S6O
+4jD2y9n7OI635bhXnn2KD/G5jByX5y9jO07Ka19KncSbMrZTahin4+NhvI6P5bFbxo7G1m559aCM7scgnsZaeTy5nS8iIiIiIiIiIn2O/yeJiIjIXX4BY6FP
+tA==
+   </Chunk>
+  </Data>
+ </Plugin>
+
+ <!-- Dimension Pro -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Dimension Pro (small room size=50)</Name>
+   <Binary>/home/jpc/.wine/drive_c/Program Files/Cakewalk/Vstplugins/Dimension Pro/Dimension Pro x64.dll</Binary>
+   <UniqueID>1684893299</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f9</Options>
+
+   <Chunk>
+eJzt2c9OE1EUB+DDxhfgEViwMDFs3KCFER+CxJAQFRpRCQSNC1Z9BLfwCPAC7nwB9Jm8lD92xsi06WgzOd+PnMy09/L1lrmFCSditBkz5Xr+ZLWOt1TVqPr4
+5cXF4KEqc5416h+n7f13nil+hrVK7s17fdr27+h7t9V1muuft2a+Hr2q4XBYq+6uQ878uLp63mUt+v1IMzP/Tm185qpGjffM4PzsbONmfHR7HL/Wxp/fP/Xf
+ERFZSFrvKRadee8bREREJHFWVn+fL92f/dyamFJNzn/8aHl0Pe/r/eSp74eqh4c5HA6Hw+FwOBwOh8PhcDgcDofD4XA4HM7/dPQHORwOh8PhcDgcDofD4XA4
+HA6Hw+FwOJw8jv4gh8PhcDgcDofD4XA4HA6Hw+FwOBwOh5PH0R/kcDgcDofD4XA4HA6Hw+FwOBwOh8PhcPI4+oMcDofD4XA4HA6Hw+FwOBwOh8PhcDgcTh5H
+f5DD4XA4HA6Hw+FwOBwOh8PhcDgcDofDyePoD3I4HA6Hw+FwOBwOh8PhcDgcDofD4XA4eRz9QQ6Hw+FwOBwOh8PhcDgcDofD4XA4HA4nj6M/yOFwOBwOh8Ph
+cDgcDofD4XA4HA6Hw+HkcfQHORwOh8PhcDgcDofD4XA4HA6Hw+FwOJw8jv4gh8PhcDgcDofD4XA4HA6Hw+FwOBwOh5PH0R/kcDgcDofD4XA4HA6Hw+FwOBwO
+h8PhcPI4+oMcDofD4XA4HA6Hw+FwOBwOh8PhcDgcTh5Hf5DD4XA4HA6Hw+FwOBwOh8PhcDgcDofDyePoD3I4HA6Hw+FwOBwOh8PhcDgcDofD4XA4eRz9QQ6H
+w+FwOBwOh8PhcDgcDofD4XA4HA4nj6M/yOFwOBwOh8PhcDgcDofD4XA4HA6Hw+HkcfQHORwOh8PhcDgcDofD4XA4HA6Hw+FwOJw8jv4gh8PhcDgcDofD4XA4
+HA6Hw+FwOBwOh5PH0R/kcDgcDofD4XA4HA6Hw+FwOBwOh8PhcFI7m905bfP+Nl6V1//2Yv71nG/VHevJsZ5a7Gfr6fl6arGfrafn66nFfrae3q7nVazHTryL
+oziM/XL2Po7jbTnulUef4kN8LiPH5fHL2I6T8tyXUifxpoztlBrG6fh4GK/jY/naLWNHY2u3PHtQRvdjEE9jLZ7czhYRERERERERkX7H/5NERETkLr8AnytP
+XA==
+   </Chunk>
+  </Data>
+ </Plugin>
+
+ <!-- Dimension Pro -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Dimension Pro (small room size=0)</Name>
+   <Binary>/home/jpc/.wine/drive_c/Program Files/Cakewalk/Vstplugins/Dimension Pro/Dimension Pro x64.dll</Binary>
+   <UniqueID>1684893299</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f9</Options>
+
+   <Chunk>
+eJzt2UtO21AUBuDDpBvoEjrooBLqmDZgYBFIFRLqg6gvBALEoKMsgSksATbQWTdAu6ZeUkpjo+JEMUTW+X50ZCf38uUG34DFiRitxUy5nj9ZreMtVTWqPn55
+cTG4r8qcV4164LS9/84zxc+wVsm9ea9P2/4d/ei2uk5z/fPWzNejVzUcDmvV3XXImZ9XV6+7rEW/H2lm5t+pjc9c1ajxnhmcn52t/hkf3RzHr7V69/un/jsi
+IgtJ6z3FojPvfYOIiIgkzrPn/86Xbs9+bUxMqSbnv3jydHQ97/R28tT3Q9X9wxwOh8PhcDgcDofD4XA4HA6Hw+FwOBwO5zEd/UEOh8PhcDgcDofD4XA4HA6H
+w+FwOBwOJ4+jP8jhcDgcDofD4XA4HA6Hw+FwOBwOh8Ph5HH0BzkcDofD4XA4HA6Hw+FwOBwOh8PhcDicPI7+IIfD4XA4HA6Hw+FwOBwOh8PhcDgcDoeTx9Ef
+5HA4HA6Hw+FwOBwOh8PhcDgcDofD4XDyOPqDHA6Hw+FwOBwOh8PhcDgcDofD4XA4HE4eR3+Qw+FwOBwOh8PhcDgcDofD4XA4HA6Hw8nj6A9yOBwOh8PhcDgc
+DofD4XA4HA6Hw+FwOHkc/UEOh8PhcDgcDofD4XA4HA6Hw+FwOBwOJ4+jP8jhcDgcDofD4XA4HA6Hw+FwOBwOh8Ph5HH0BzkcDofD4XA4HA6Hw+FwOBwOh8Ph
+cDicPI7+IIfD4XA4HA6Hw+FwOBwOh8PhcDgcDoeTx9Ef5HA4HA6Hw+FwOBwOh8PhcDgcDofD4XDyOPqDHA6Hw+FwOBwOh8PhcDgcDofD4XA4HE4eR3+Qw+Fw
+OBwOh8PhcDgcDofD4XA4HA6Hw8nj6A9yOBwOh8PhcDgcDofD4XA4HA6Hw+FwOHkc/UEOh8PhcDgcDofD4XA4HA6Hw+FwOBwOJ4+jP8jhcDgcDofD4XA4HA6H
+w+FwOBwOh8Ph5HH0BzkcDofD4XA4HA6Hw+FwOBwOh8PhcDic1M5ad07bvP+NV+X1v6/Pv57zjbpjPTnWU4v9bD09X08t9rP19Hw9tdjP1tPb9byJldiOj7Ef
+e7Fbzj7HQbwvxw/l0VF8ieMyclAeb8ZWHJbnTkodxrsytl1qGN/Gx714G1/L104Z2x9bO+XZT2V0NwbxMpZv5oqIiIiIiIiISN/j/0kiIiLyN78Bqm5O8g==
+   </Chunk>
+  </Data>
+ </Plugin>
+
+ <ExternalPatchbay>
+  <Connection>
+   <Source>system:capture_1</Source>
+   <Target>PulseAudio JACK Source:front-left</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_2</Source>
+   <Target>PulseAudio JACK Source:front-right</Target>
+  </Connection>
+  <Connection>
+   <Source>PulseAudio JACK Sink:front-left</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>PulseAudio JACK Sink:front-right</Source>
+   <Target>system:playback_2</Target>
+  </Connection>
+  <Connection>
+   <Source>SMF-DSP:output_0</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>SMF-DSP:output_1</Source>
+   <Target>system:playback_2</Target>
+  </Connection>
+ </ExternalPatchbay>
+</CARLA-PROJECT>

@@ -1,0 +1,15 @@
+
+<region>
+sample=ramp.wav
+oscillator=on
+
+<effect>
+type=fverb
+reverb_input=100
+reverb_tone=100
+reverb_damp=0
+reverb_predelay=0
+reverb_dry=50
+reverb_wet=50
+reverb_size=50
+reverb_type=mid_hall
